@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+.container {
+    margin: 0 166px;
+}
+.header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
