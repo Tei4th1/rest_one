@@ -1,3 +1,11 @@
+.open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 body {
     margin: 0;
 }
@@ -14,4 +22,68 @@ body {
     padding-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+.nav-item:hover {
+    color: crimson;
+
+}
+.cart {
+    position: relative;
+
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+    height: 50px;
+}
+.cart-img {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+
+}
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    transition: color 0.3s linear;
+}
+.phone-text {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+}
+.num:hover {
+    color: crimson;
+}
+.btn-text {
+    background: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding: 14px 18px;
+    transition: color 0.3s linear;
+
+}
+
+.btn-text:hover {
+    background-color: crimson;
+
 }

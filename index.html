@@ -5,39 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class = "header">
         <div class="container">
             <div class="header-line">
-                    <div class = "logo"><img src="LOGO.png" alt="logo">
+                <div class = "logo">
+                    <img src="LOGO.png" alt="logo">
+                </div>
                 <div class="navigation">
                     <a class="nav-item" href="#">Главная</a>
                     <a class="nav-item" href="#">Меню</a>
                     <a class="nav-item" href="#">О нас</a>
                     <a class="nav-item" href="#">Бронирование </a>
-            </div>
+                </div>
                 <div class="cart">
                     <a href="#">
-                        <img src="cart.png" alt="Корзина">
+                        <img class= "cart-img"src="cart.png" alt="Корзина">
                     </a>
                 </div>
                 <div class="phone">
-                    <div class="phone-numaber">
-                        <a href="#">+999-888-76-54</a>
-                    </div>
-                    <div class="phone-image">
-                        <a href="#">
-                            <img src="phone.png" alt="телефон">
-                        </a>
-                    </div>
-
-                    <div class="phone-text">Свяжитесь с нами для 
+                        <div class="phone-number">
+                            <div class="phone-image">
+                                <a href="#">
+                                    <img src="phone.png" alt="телефон">
+                                </a>
+                            </div>
+                             <div>
+                                <a class = "num" href="#">+999-888-76-54</a>
+                            </div>
+                        </div>
+                    <div class="phone-text">Свяжитесь с нами для <br>
                         бронирования
                     </div>
                 </div>
                 <div class="btn">
-                    Заказ столика
+                    <a href="*" class="btn-text">Заказ столика</a>
                 </div>
 
             </div>
